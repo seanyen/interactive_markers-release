@@ -1,3 +1,22 @@
+## interactive_markers - 1.10.1-0
+
+User `william@dosa.local` released the packages in the `interactive_markers` repository by running `/usr/local/bin/bloom-release -r hydro -t hydro interactive_markers` on `Mon, 27 Jan 2014 19:02:31 -0000`
+
+The `interactive_markers` package was released.
+
+Version of package(s) in repository `interactive_markers`:
+- rosdistro version: `1.10.0-0`
+- old version: `1.10.0-0`
+- new version: `1.10.1-0`
+
+Versions of tools used:
+- bloom version: `0.4.7`
+- catkin_pkg version: `0.1.25`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.0`
+- vcstools version: `0.1.33`
+
+
 ## interactive_markers - 1.10.0-0
 
 User `william@dosa` released the packages in the `interactive_markers` repository by running `/tmp/bloom_0.4.4/bin/bloom-release -r hydro -t hydro interactive_markers` on `Thu, 23 Jan 2014 21:56:36 -0000`
