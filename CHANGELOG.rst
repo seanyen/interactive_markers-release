@@ -2,6 +2,12 @@
 Changelog for package interactive_markers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.10.2 (2014-02-03)
+-------------------
+* fix regression in menu_handler.py
+  fixes `#14 <https://github.com/ros-visualization/interactive_markers/issues/14>`_
+* Contributors: William Woodall
+
 1.10.1 (2014-01-27)
 -------------------
 * cleanup python code and package contents
