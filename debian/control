@@ -1,0 +1,12 @@
+Source: ros-indigo-interactive-markers
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-rostest, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-visualization-msgs
+Homepage: http://ros.org/wiki/interactive_markers
+Standards-Version: 3.9.2
+
+Package: ros-indigo-interactive-markers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-rosconsole, ros-indigo-roscpp, ros-indigo-rospy, ros-indigo-rostest, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-visualization-msgs
+Description: 3D interactive marker communication library for RViz and similar tools.
