@@ -1,3 +1,22 @@
+## interactive_markers (indigo) - 1.10.2-0
+
+User `william@dosa` released the packages in the `interactive_markers` repository into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo -n interactive_markers` on `Mon, 24 Feb 2014 23:41:27 -0000`
+
+The `interactive_markers` package was released.
+
+Version of package(s) in repository `interactive_markers`:
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.10.2-0`
+
+Versions of tools used:
+- bloom version: `0.5.0`
+- catkin_pkg version: `0.1.26`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## interactive_markers - 1.10.2-0
 
 User `william@dosa` released the packages in the `interactive_markers` repository by running `/usr/local/bin/bloom-release -r hydro -t hydro interactive_markers` on `Tue, 04 Feb 2014 00:28:54 -0000`
