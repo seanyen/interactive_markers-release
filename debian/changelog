@@ -1,0 +1,24 @@
+ros-indigo-interactive-markers (1.10.2-0trusty) trusty; urgency=high
+
+  * fix regression in menu_handler.py
+    fixes #14 <https://github.com/ros-visualization/interactive_markers/issues/14>
+  * Contributors: William Woodall
+
+ -- David Gossow <dgossow@willowgarage.com>  Mon, 03 Feb 2014 08:00:00 -0000
+
+ros-indigo-interactive-markers (1.10.1-0trusty) trusty; urgency=high
+
+  * cleanup python code and package contents
+  * remove useless dependencies
+  * Contributors: Vincent Rabaud, William Woodall
+
+ -- David Gossow <dgossow@willowgarage.com>  Mon, 27 Jan 2014 08:00:00 -0000
+
+ros-indigo-interactive-markers (1.10.0-0trusty) trusty; urgency=high
+
+  * remove debug statement that could produce segfault; init_it->msg->markers may be empty
+  * Contributors: Filip Jares
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 23 Jan 2014 08:00:00 -0000
+
+
