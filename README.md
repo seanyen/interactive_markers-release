@@ -1,3 +1,22 @@
+## interactive_markers (groovy) - 1.9.10-0
+
+User `david@david` released the packages in the `interactive_markers` repository into the `groovy` distro by running `/usr/bin/bloom-release interactive_markers --track groovy --rosdistro groovy --edit` on `Wed, 16 Apr 2014 22:01:59 -0000`
+
+The `interactive_markers` package was released.
+
+Version of package(s) in repository `interactive_markers`:
+- rosdistro version: `1.9.9-0`
+- old version: `1.10.2-0`
+- new version: `1.9.10-0`
+
+Versions of tools used:
+- bloom version: `0.5.2`
+- catkin_pkg version: `0.1.28`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## interactive_markers (groovy) - 1.10.2-0
 
 User `david@david` released the packages in the `interactive_markers` repository into the `groovy` distro by running `/usr/bin/bloom-release interactive_markers --track groovy --rosdistro groovy` on `Wed, 16 Apr 2014 20:06:39 -0000`
