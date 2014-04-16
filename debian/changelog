@@ -1,0 +1,16 @@
+ros-groovy-interactive-markers (1.9.10-0quantal) quantal; urgency=high
+
+  * fix threading bugs
+    Fix locking of data structures shared across threads.
+  * Contributors: Acorn Pooley
+
+ -- David Gossow <dgossow@willowgarage.com>  Wed, 16 Apr 2014 07:00:00 -0000
+
+ros-groovy-interactive-markers (1.9.9-0quantal) quantal; urgency=high
+
+  * remove debug statement that could produce segfault; init_it->msg->markers may be empty
+  * Contributors: David Gossow, Filip Jares
+
+ -- David Gossow <dgossow@willowgarage.com>  Thu, 23 Jan 2014 08:00:00 -0000
+
+
