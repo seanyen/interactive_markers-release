@@ -199,14 +199,12 @@ bool InteractiveMarkerServer::erase( const std::string &name )
 
 void InteractiveMarkerServer::clear()
 {
-  boost::recursive_mutex::scoped_lock lock( mutex_ );
-
   // erase all markers
   pending_updates_.clear();
   M_MarkerContext::iterator it;
   for ( it = marker_contexts_.begin(); it != marker_contexts_.end(); it++ )
   {
-    pending_updates_[it->first].update_type = UpdateContext::ERASE;
+    erase( it->first );
   }
 }
 
@@ -317,8 +315,6 @@ void InteractiveMarkerServer::insert( const visualization_msgs::InteractiveMarke
 
 bool InteractiveMarkerServer::get( std::string name, visualization_msgs::InteractiveMarker &int_marker ) const
 {
-  boost::recursive_mutex::scoped_lock lock( mutex_ );
-
   M_UpdateContext::const_iterator update_it = pending_updates_.find( name );
 
   if ( update_it == pending_updates_.end() )
