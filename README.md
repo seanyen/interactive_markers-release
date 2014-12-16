@@ -1,3 +1,24 @@
+## interactive_markers (hydro) - 1.10.3-0
+
+The packages in the `interactive_markers` repository were released into the `hydro` distro by running `/usr/local/bin/bloom-release -r hydro -t hydro interactive_markers` on `Tue, 16 Dec 2014 22:05:32 -0000`
+
+The `interactive_markers` package was released.
+
+Version of package(s) in repository `interactive_markers`:
+- upstream repository: https://github.com/ros-visualization/interactive_markers
+- release repository: https://github.com/ros-gbp/interactive_markers-release.git
+- rosdistro version: `1.10.2-0`
+- old version: `1.10.2-0`
+- new version: `1.10.3-0`
+
+Versions of tools used:
+- bloom version: `0.5.15`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## interactive_markers (indigo) - 1.11.1-0
 
 The packages in the `interactive_markers` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo interactive_markers` on `Tue, 16 Dec 2014 21:22:58 -0000`
