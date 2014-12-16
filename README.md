@@ -1,3 +1,24 @@
+## interactive_markers (indigo) - 1.11.1-0
+
+The packages in the `interactive_markers` repository were released into the `indigo` distro by running `/usr/local/bin/bloom-release -r indigo -t indigo interactive_markers` on `Tue, 16 Dec 2014 21:22:58 -0000`
+
+The `interactive_markers` package was released.
+
+Version of package(s) in repository `interactive_markers`:
+- upstream repository: https://github.com/ros-visualization/interactive_markers.git
+- release repository: https://github.com/ros-gbp/interactive_markers-release.git
+- rosdistro version: `1.11.0-0`
+- old version: `1.11.0-0`
+- new version: `1.11.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.15`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## interactive_markers (groovy) - 1.9.10-0
 
 User `david@david` released the packages in the `interactive_markers` repository into the `groovy` distro by running `/usr/bin/bloom-release interactive_markers --track groovy --rosdistro groovy --edit` on `Wed, 16 Apr 2014 22:01:59 -0000`
