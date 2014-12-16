@@ -199,12 +199,14 @@ bool InteractiveMarkerServer::erase( const std::string &name )
 
 void InteractiveMarkerServer::clear()
 {
+  boost::recursive_mutex::scoped_lock lock( mutex_ );
+
   // erase all markers
   pending_updates_.clear();
   M_MarkerContext::iterator it;
   for ( it = marker_contexts_.begin(); it != marker_contexts_.end(); it++ )
   {
-    erase( it->first );
+    pending_updates_[it->first].update_type = UpdateContext::ERASE;
   }
 }
 
@@ -223,10 +225,22 @@ bool InteractiveMarkerServer::setPose( const std::string &name, const geometry_m
     return false;
   }
 
+  // keep the old header
   if ( header.frame_id.empty() )
   {
-    // keep the old header
-    doSetPose( update_it, name, pose, marker_context_it->second.int_marker.header );
+    if ( marker_context_it != marker_contexts_.end() )
+    {
+      doSetPose( update_it, name, pose, marker_context_it->second.int_marker.header );
+    }
+    else if ( update_it != pending_updates_.end() )
+    {
+      doSetPose( update_it, name, pose, update_it->second.int_marker.header );
+    }
+    else
+    {
+      BOOST_ASSERT_MSG(false, "Marker does not exist and there is no pending creation.");
+      return false;
+    }
   }
   else
   {
@@ -315,6 +329,8 @@ void InteractiveMarkerServer::insert( const visualization_msgs::InteractiveMarke
 
 bool InteractiveMarkerServer::get( std::string name, visualization_msgs::InteractiveMarker &int_marker ) const
 {
+  boost::recursive_mutex::scoped_lock lock( mutex_ );
+
   M_UpdateContext::const_iterator update_it = pending_updates_.find( name );
 
   if ( update_it == pending_updates_.end() )
