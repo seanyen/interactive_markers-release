@@ -94,8 +94,8 @@ class InteractiveMarkerServer:
         # string : UpdateContext
         self.pending_updates = dict()
 
-        self.init_pub = rospy.Publisher(topic_ns+"/update_full", InteractiveMarkerInit, latch=True, queue_size=100)
-        self.update_pub = rospy.Publisher(topic_ns+"/update", InteractiveMarkerUpdate, queue_size=100)
+        self.init_pub = rospy.Publisher(topic_ns+"/update_full", InteractiveMarkerInit, latch=True)
+        self.update_pub = rospy.Publisher(topic_ns+"/update", InteractiveMarkerUpdate)
 
         rospy.Subscriber(topic_ns+"/feedback", InteractiveMarkerFeedback, self.processFeedback, queue_size=q_size)
         rospy.Timer(rospy.Duration(0.5), self.keepAlive)
