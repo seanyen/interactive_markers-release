@@ -1,3 +1,24 @@
+## interactive_markers (jade) - 1.11.1-0
+
+The packages in the `interactive_markers` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release -r jade -t jade interactive_markers` on `Tue, 21 Apr 2015 05:44:02 -0000`
+
+The `interactive_markers` package was released.
+
+Version of package(s) in repository `interactive_markers`:
+- upstream repository: https://github.com/ros-visualization/interactive_markers.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.11.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.8`
+- rosdep version: `0.11.2`
+- rosdistro version: `0.4.2`
+- vcstools version: `0.1.36`
+
+
 ## interactive_markers (hydro) - 1.10.3-0
 
 The packages in the `interactive_markers` repository were released into the `hydro` distro by running `/usr/local/bin/bloom-release -r hydro -t hydro interactive_markers` on `Tue, 16 Dec 2014 22:05:32 -0000`
