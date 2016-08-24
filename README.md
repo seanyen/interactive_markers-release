@@ -1,3 +1,26 @@
+## interactive_markers (kinetic) - 1.11.3-0
+
+The packages in the `interactive_markers` repository were released into the `kinetic` distro by running `/usr/local/bin/bloom-release interactive_markers -r kinetic -t kinetic` on `Wed, 24 Aug 2016 23:32:17 -0000`
+
+The `interactive_markers` package was released.
+
+Version of package(s) in repository `interactive_markers`:
+
+- upstream repository: https://github.com/ros-visualization/interactive_markers.git
+- release repository: https://github.com/ros-gbp/interactive_markers-release.git
+- rosdistro version: `1.11.1-0`
+- old version: `1.11.1-0`
+- new version: `1.11.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.22`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## interactive_markers (jade) - 1.11.3-0
 
 The packages in the `interactive_markers` repository were released into the `jade` distro by running `/usr/local/bin/bloom-release interactive_markers -r jade -t jade` on `Wed, 24 Aug 2016 23:28:39 -0000`
