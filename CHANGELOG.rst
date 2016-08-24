@@ -2,6 +2,24 @@
 Changelog for package interactive_markers
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.11.3 (2016-08-24)
+-------------------
+* The ``processFeedback`` function of the menu handler no longer catches the ``KeyErrors`` of the feedback_cb.
+  See: `#29 <https://github.com/ros-visualization/interactive_markers/issues/29>`_
+* Added the ``empty()`` and ``size()`` members to ``InteractiveMarkerServer`` interface.
+  See: `#30 <https://github.com/ros-visualization/interactive_markers/issues/30>`_
+* Contributors: Blake Anderson, Guglielmo Gemignani
+
+1.11.2 (2016-08-24)
+-------------------
+* Fix build when disabling tests with ``-DCATKIN_ENABLE_TESTING=OFF``.
+  See: `#26 <https://github.com/ros-visualization/interactive_markers/issues/26>`_
+* Fix use of uninitialized variables.
+  See: `#24 <https://github.com/ros-visualization/interactive_markers/issues/24>`_
+* Fix potential segfault when shutting down.
+  See: `#25 <https://github.com/ros-visualization/interactive_markers/issues/25>`_
+* Contributors: Alexis Ballier, David Gossow, Max Schwarz
+
 1.11.1 (2014-12-16)
 -------------------
 * Added explicit keyword argument queue_size for publisher in Python code and use the same default queue_size value as C++.
