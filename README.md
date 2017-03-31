@@ -1,3 +1,26 @@
+## interactive_markers (lunar) - 1.11.3-0
+
+The packages in the `interactive_markers` repository were released into the `lunar` distro by running `/usr/local/bin/bloom-release -r lunar -t lunar interactive_markers` on `Fri, 31 Mar 2017 18:50:32 -0000`
+
+The `interactive_markers` package was released.
+
+Version of package(s) in repository `interactive_markers`:
+
+- upstream repository: https://github.com/ros-visualization/interactive_markers.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.11.3-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.1`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.1`
+- vcstools version: `0.1.39`
+
+
 ## interactive_markers (kinetic) - 1.11.3-0
 
 The packages in the `interactive_markers` repository were released into the `kinetic` distro by running `/usr/local/bin/bloom-release interactive_markers -r kinetic -t kinetic` on `Wed, 24 Aug 2016 23:32:17 -0000`
