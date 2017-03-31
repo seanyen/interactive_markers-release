@@ -1,0 +1,12 @@
+Source: ros-lunar-interactive-markers
+Section: misc
+Priority: extra
+Maintainer: William Woodall <william@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-rosconsole, ros-lunar-roscpp, ros-lunar-rospy, ros-lunar-rostest, ros-lunar-std-msgs, ros-lunar-tf, ros-lunar-visualization-msgs
+Homepage: http://ros.org/wiki/interactive_markers
+Standards-Version: 3.9.2
+
+Package: ros-lunar-interactive-markers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-rosconsole, ros-lunar-roscpp, ros-lunar-rospy, ros-lunar-rostest, ros-lunar-std-msgs, ros-lunar-tf, ros-lunar-visualization-msgs
+Description: 3D interactive marker communication library for RViz and similar tools.
