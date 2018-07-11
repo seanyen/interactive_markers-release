@@ -1,3 +1,26 @@
+## interactive_markers (kinetic) - 1.11.4-0
+
+The packages in the `interactive_markers` repository were released into the `kinetic` distro by running `/Users/william/.pyenv/versions/2.7.15/bin/bloom-release -r kinetic -t kinetic interactive_markers` on `Wed, 11 Jul 2018 21:34:18 -0000`
+
+The `interactive_markers` package was released.
+
+Version of package(s) in repository `interactive_markers`:
+
+- upstream repository: https://github.com/ros-visualization/interactive_markers.git
+- release repository: https://github.com/ros-gbp/interactive_markers-release.git
+- rosdistro version: `1.11.3-0`
+- old version: `1.11.3-0`
+- new version: `1.11.4-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.6`
+- catkin_pkg version: `0.4.5`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## interactive_markers (melodic) - 1.11.4-0
 
 The packages in the `interactive_markers` repository were released into the `melodic` distro by running `/usr/local/opt/python2/Frameworks/Python.framework/Versions/2.7/bin/bloom-release -r melodic -t melodic interactive_markers` on `Mon, 16 Apr 2018 16:40:38 -0000`
