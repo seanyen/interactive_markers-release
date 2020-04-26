@@ -5,7 +5,7 @@
   </description>
   <maintainer email="william@osrfoundation.org">William Woodall</maintainer>
   <license>BSD</license>  
-  <version>1.11.5</version>
+  <version>1.12.0</version>
 
   <author>David Gossow</author>
 
@@ -18,6 +18,7 @@
   <depend>rospy</depend>
   <depend>rostest</depend>
   <depend>std_msgs</depend>
-  <depend>tf</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
   <depend>visualization_msgs</depend>
 </package>

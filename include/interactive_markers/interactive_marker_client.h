@@ -42,7 +42,7 @@
 #include <ros/subscriber.h>
 #include <ros/node_handle.h>
 
-#include <tf/tf.h>
+#include <tf2_ros/buffer.h>
 
 #include <visualization_msgs/InteractiveMarkerInit.h>
 #include <visualization_msgs/InteractiveMarkerUpdate.h>
@@ -87,7 +87,7 @@ public:
   /// @param target_frame tf frame to transform timestamped messages into.
   /// @param topic_ns     The topic namespace (will subscribe to topic_ns/update, topic_ns/init)
   INTERACTIVE_MARKERS_PUBLIC
-  InteractiveMarkerClient( tf::Transformer& tf,
+  InteractiveMarkerClient(tf2_ros::Buffer &tf,
       const std::string& target_frame = "",
       const std::string &topic_ns = "" );
 
@@ -165,7 +165,7 @@ private:
   M_SingleClient publisher_contexts_;
   boost::mutex publisher_contexts_mutex_;
 
-  tf::Transformer& tf_;
+  tf2_ros::Buffer& tf_;
   std::string target_frame_;
 
 public:
@@ -214,7 +214,7 @@ private:
   StatusCallback status_cb_;
 
   // this allows us to detect if a server died (in most cases)
-  int last_num_publishers_;
+  uint32_t last_num_publishers_;
 
   // if false, auto-completed markers will have alpha = 1.0
   bool enable_autocomplete_transparency_;
