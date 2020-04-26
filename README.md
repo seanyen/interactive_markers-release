@@ -1,3 +1,26 @@
+## interactive_markers (noetic) - 1.12.0-1
+
+The packages in the `interactive_markers` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic interactive_markers` on `Sun, 26 Apr 2020 08:21:41 -0000`
+
+The `interactive_markers` package was released.
+
+Version of package(s) in repository `interactive_markers`:
+
+- upstream repository: https://github.com/ros-visualization/interactive_markers.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.12.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.9.3`
+- catkin_pkg version: `0.4.17`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.1`
+- vcstools version: `0.1.42`
+
+
 ## interactive_markers (melodic) - 1.11.5-1
 
 The packages in the `interactive_markers` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --ros-distro melodic -e interactive_markers` on `Sun, 05 Apr 2020 16:57:01 -0000`
