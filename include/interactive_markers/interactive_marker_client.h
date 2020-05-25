@@ -50,6 +50,10 @@
 
 #include "detail/state_machine.h"
 
+#if defined(_WIN32) && defined(DELETE)
+  #undef DELETE
+#endif
+
 namespace interactive_markers
 {
 
